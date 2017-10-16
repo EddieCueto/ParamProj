@@ -39,6 +39,7 @@ con2 = Conv 64 (1,1) (Just 64)
 con3 = Conv 192 (3,3) (Just 64)
 
 -- Constructing the nine inception modules
+-- The data in the whole GoogLeNet
 
 inCon11 = Conv 192 (1,1) (Just 64)
 inCon12 = Conv 96 (3,3) (Just 128)
